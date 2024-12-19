@@ -1,9 +1,9 @@
 <section id="banner">
-	<img class="logo" src="images/icon.png" alt="" />
-	<h2>Open Note Block Studio</h2>
-	<p>An open source note block song editor</p>
+	<img class="logo" src="images/icon.png" alt="" style="margin-bottom: 1rem;"/>
+	<h2>Note Block Studio</h2>
+	<p>An open-source Minecraft music editor</p>
 	<ul class="actions vertical">
-		<li><a href="https://github.com/OpenNBS/OpenNoteBlockStudio/releases/latest/download/Minecraft.Note.Block.Studio.exe" class="button special icon fa-download big" id="downloadBtn">Download</a></li>
+		<li><a href="https://github.com/OpenNBS/NoteBlockStudio/releases/latest/download/Minecraft.Note.Block.Studio.exe" class="button special icon fa-download big" id="downloadBtn">Download</a></li>
 		<li><a href="{{'/changelog' | absolute_url}}" class="button">View changelog</a></li>
 	</ul>
 </section>
@@ -17,7 +17,7 @@
 					This is also the place to give feedback!<br>
 					<strong>Note:</strong> please search before creating a new issue!</p>
 					<ul class="actions vertical">
-						<li><a href="https://github.com/OpenNBS/OpenNoteBlockStudio/issues" class="button">Report an issue</a></li>
+						<li><a href="https://github.com/OpenNBS/NoteBlockStudio/issues" class="button">Report an issue</a></li>
 					</ul>
 					<br>	
 				</div>
@@ -37,7 +37,7 @@
 						<br>
 					You must have GameMaker Studio 2 in order to open this project and make changes.</p>
 					<ul class="actions vertical">
-						<li><a href="https://github.com/OpenNBS/OpenNoteBlockStudio/pulls" class="button">Contribute!</a></li>
+						<li><a href="https://github.com/OpenNBS/NoteBlockStudio/pulls" class="button">Contribute!</a></li>
 					</ul>
 					<br>
 				</div>
@@ -45,4 +45,3 @@
 		</div>
 		<script src="{{ '/assets/js/index.js' | absolute_url}}"></script>
 	</section>
-	

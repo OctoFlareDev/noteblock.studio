@@ -9,7 +9,7 @@ permalink: /privacy_policy
 	<div class="container">
 		<div class="row">
 			<div class="12u 12u$(small)">
-				<p>Your privacy is important to us. It is Open Note Block Studio's policy to respect your privacy regarding any information we may collect from you across our website, <a href='{{site.url}}'>{{site.url}}</a>.<br>
+				<p>Your privacy is important to us. It is Note Block Studio's policy to respect your privacy regarding any information we may collect from you across our website, <a href='{{site.url}}'>{{site.url}}</a>.<br>
 				When signing up to our website, <b>we store the following personal information:</b></p>
 				<ul>
   					<li>E-mail address, to identify you as the owner of submitted note block songs</li>
