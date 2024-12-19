@@ -345,7 +345,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #323037;
-		border-radius: 4px;
+		border-radius: 14px;
 		color: #ffffff !important;
 		border: 0;
 		cursor: pointer;
@@ -477,7 +477,7 @@
 	input[type="button"].special,
 	button.special,
 	.button.special {
-		background-color: #f32853;
+		background-image: linear-gradient(to bottom left, rgb(1, 197, 99), rgb(81, 175, 4));
 		color: #ffffff !important;
 	}
 
@@ -486,7 +486,7 @@
 	input[type="button"].special:hover,
 	button.special:hover,
 	.button.special:hover {
-		background-color: #f44066;
+		background-image: linear-gradient(to bottom left, rgb(2, 212, 107), rgb(90, 196, 3));
 	}
 
 	input[type="submit"].special:active,
@@ -494,7 +494,7 @@
 	input[type="button"].special:active,
 	button.special:active,
 	.button.special:active {
-		background-color: #f21040;
+		background-image: linear-gradient(to bottom left, rgb(0, 158, 79), rgb(67, 148, 1));;
 	}
 
 	@media screen and (max-width: 480px) {
