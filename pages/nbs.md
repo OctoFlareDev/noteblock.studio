@@ -38,7 +38,7 @@ permalink: /nbs
 					<strong>Version 3:</strong> 
 					<ul><li>Song length is now saved again after the vanilla instrument count.</li></ul>
 					<strong>Version 2:</strong>
-					<ul><li>Now stereo information is saved for each layer. This means that now the sound can pan to the left/right.</li><li>For every layer, there's now a byte that determines how much that layer pans.<br>0 is 2 blocks right, 100 is centre, 200 is 2 blocks left.</li></ul>
+					<ul><li>Now stereo information is saved for each layer. This means that now the sound can pan to the left/right.</li><li>For every layer, there's now a byte that determines how much that layer pans.<br>0 is 2 blocks left, 100 is centre, 200 is 2 blocks right.</li></ul>
 					<strong>Version 1:</strong> 
 					<ul><li>The first two bytes, which used to indicate the song length, have been changed to 0 to indicate the new format.</li>
 					<li>The NBS version is now stored in the file.</li>
@@ -243,7 +243,7 @@ permalink: /nbs
 					<tr class="newversion">
 						<td>Byte (unsigned)</td>
 						<td>Note block panning</td>
-						<td>The stereo position of the note block, from 0-200. 0 is 2 blocks right, 100 is center, 200 is 2 blocks left.</td>
+						<td>The stereo position of the note block, from 0-200. 0 is 2 blocks left, 100 is center, 200 is 2 blocks right.</td>
 					</tr>
 					<tr class="newversion">
 						<td>Short</td>
@@ -289,7 +289,7 @@ permalink: /nbs
 					<tr class="newversion">
 						<td>Byte (unsigned)</td>
 						<td>Layer stereo</td>
-						<td>How much this layer is panned to the left/right. 0 is 2 blocks right, 100 is center, 200 is 2 blocks left.</td>
+						<td>How much this layer is panned to the left/right. 0 is 2 blocks left, 100 is center, 200 is 2 blocks right.</td>
 					</tr>
 				</tbody>
 			</table>
