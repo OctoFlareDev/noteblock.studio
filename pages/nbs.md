@@ -30,8 +30,8 @@ permalink: /nbs
 				<h2>NBS Changelog</h2>
 				<div>
                     <strong>Version 6:</strong>
-                    <ul><li>The built-in instrument count changed from 16 to 20, to accomodate for the four new trumpet instruments.</li>
-                    <li>Because of that, the maximum custom instrument count have been decreased to 236.</li>
+                    <ul><li>The built-in instrument count changed from 16 to 20, to accomodate for the four new trumpet instruments added in Minecraft 26.1.</li>
+                    <li>Because of that, the maximum custom instrument count has been decreased to 236.</li>
                     <li>No fields have been added or removed, so version 6 files may be read identically to version 5 and 4.</li></ul>
 					<strong>Version 5:</strong>
 					<ul><li>May now hold up to 240 custom instruments, previously 18.</li>
